@@ -88,5 +88,8 @@ function c() {
 	let win = p('about:blank', '680', '460');
 	win.document.body.appendChild(f);
 	f.submit();
-	
+}
+
+function r() {
+	document.location.host.includes('elinbosgitme.com') ? alert('Listeye ekle butonu yüklendi!') : c();
 }
