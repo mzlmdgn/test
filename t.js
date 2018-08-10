@@ -63,7 +63,7 @@ function addInput(el, name, value) {
     form.appendChild(i);
 }
 
-(function() {
+function c() {
     let m = longestCommonSubstring(document.title.toLocaleLowerCase(), document.body.innerText.toLocaleLowerCase()).trim();
     let title = (document.title.length - m.length > 40) ? document.title : document.body.innerText.substr(document.body.innerText.toLocaleLowerCase().indexOf(m), m.length)
     
@@ -89,4 +89,4 @@ function addInput(el, name, value) {
 	win.document.body.appendChild(f);
 	f.submit();
 	
-})();
+}
