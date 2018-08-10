@@ -60,7 +60,7 @@ function addInput(el, name, value) {
     i.type = 'hidden';
     i.name = name;
     i.value = value;
-    form.appendChild(i);
+    el.appendChild(i);
 }
 
 function c() {
